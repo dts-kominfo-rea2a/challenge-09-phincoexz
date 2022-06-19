@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.container {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left:  0.75rem;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.header {
+  font-size: 48px;
+  background-image: linear-gradient(to right, #21d4fd, #0070f3, #b721ff) !important;
+  text-shadow: none !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.center {
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 0 0 auto;
+  width: 50%;
+}
